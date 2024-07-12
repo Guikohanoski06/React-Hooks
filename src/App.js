@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ClearableInput from './components/atvividade1';
+import RealTimeClock from './components/atividade2';
+import FactorialCalculator from './components/atividade3';
+import ToDoList from './components/atividade4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <ClearableInput />
+    <RealTimeClock />
+    <FactorialCalculator />
+    <ToDoList />
+
     </div>
+    
   );
 }
 
